@@ -15,7 +15,7 @@ const LinkContainer = (props) => {
 
   const handleSubmit = () => {
     if (name == "" && links == "") {
-      alert("Please Fill All Fields");
+      alert("Please Fill Alllllll Fields");
     }
     if (name != "" && links == "") {
       alert("Please Fill All Fields");
