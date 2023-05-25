@@ -48,10 +48,6 @@ const getLinks = (req, res) => {
   });
 };
 
-// Update link in the db
-
-// Delete link in the db
-
 module.exports = {
   getLinks,
 };

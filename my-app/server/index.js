@@ -13,6 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(__dirname, "./client/build")));
 // define routes
 
+// test
+
 app.get("/api", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
